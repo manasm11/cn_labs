@@ -6,7 +6,7 @@
 #include <unistd.h> // close() function
 #define BUFSIZE 32
 #define SERVER_ADDRESS "127.0.0.1"
-#define SERVER_PORT 8989
+#define SERVER_PORT 12345
 // #define CLIENT_PORT 9876
 
 int main()
