@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import os
+import sys
+
+file_name = sys.argv[1]
+out = file_name.split(".")[0]
+os.system(f'gcc {file_name} -lm -o {out}')
+os.system(f'./{out}') 
